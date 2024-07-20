@@ -10,7 +10,7 @@
 #define HUMIDITY_CHARACTERISTIC_UUID "00002A6F-0000-1000-8000-00805F9B34FB"
 
 #define DHTPIN 4      // Define the pin where the DHT sensor is connected
-#define DHTTYPE DHT22 // Define the type of DHT sensor (DHT11 or DHT22)
+#define DHTTYPE DHT11 // Define the type of DHT sensor (DHT11 or DHT22)
 
 DHT dht(DHTPIN, DHTTYPE);
 
